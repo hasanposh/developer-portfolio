@@ -59,9 +59,10 @@ nav li {
 
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right , top left;
 }
 .banner {
   padding: 30px 30px 0 150px;
@@ -176,10 +177,11 @@ footer {
 .footer-column {
   width: 50%;
 }
-.social-links a{
-    margin-right: 25px;
+.social-links a {
+  margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"] ,
+.contact input[type="text"],
+.contact input[type="email"],
 textarea {
   display: block;
   margin-bottom: 25px;
@@ -190,5 +192,3 @@ textarea {
   border: 0;
   width: 100%;
 }
-
-
